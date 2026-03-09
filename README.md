@@ -1,6 +1,14 @@
 # VitalSightAI
 
-AI-powered health analysis platform for blood reports and medical prescriptions.
+<div align="center">
+  <img src="docs/logo.png" alt="VitalSightAI Logo" width="200">
+
+  **AI-Powered Health Analysis Platform**
+
+  [Quick Start](docs/QUICK_START.md) • [Documentation](docs/DOCUMENTATION.md) • [API Reference](docs/API_SPECIFICATION.md) • [Contributing](docs/CONTRIBUTING.md)
+</div>
+
+---
 
 ## Overview
 
@@ -9,7 +17,25 @@ VitalSightAI helps you understand your health better by analyzing:
 - **Prescriptions**: Understand your medications - pros/cons, side effects, interactions, and personalized recommendations
 - **Individual Medicines**: Search any medicine to get comprehensive information
 
-## Features
+## 🚀 Quick Start
+
+```bash
+# Clone and setup
+git clone https://github.com/yourusername/VitalSightAI.git
+cd VitalSightAI
+
+# Backend
+cd backend && python -m venv venv && source venv/bin/activate
+pip install -r requirements.txt
+uvicorn app.main:app --reload
+
+# Frontend (new terminal)
+cd frontend && npm install && npm run dev
+```
+
+Access at http://localhost:3000
+
+📖 **[Full Quick Start Guide](docs/QUICK_START.md)**
 
 ### Blood Report Analysis
 - Upload PDF or image of blood test report

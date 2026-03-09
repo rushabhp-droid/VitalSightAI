@@ -1,0 +1,27 @@
+# Web Framework
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+pydantic-settings
+python-dotenv
+httpx
+aiofiles
+
+# OCR & Document Processing
+pypdf2
+pdf2image
+Pillow
+pytesseract
+
+# Machine Learning
+torch
+transformers
+accelerate
+peft
+bitsandbytes
+datasets
+scikit-learn
+
+# Optional: For GPU acceleration
+# nvidia-ml-py3==7.352.0
